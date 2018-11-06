@@ -1,18 +1,14 @@
 # Git 备忘录
 
-
-
 ### 1. 创建新仓库
 
 ```powershell
 $ git init
 ```
 
-
-
 ### 2. 添加文件到缓存区
 
-- ####  添加单个文件
+- #### 添加单个文件
 
 ```powershell
 $ git add <filename>
@@ -24,15 +20,11 @@ $ git add <filename>
 $ git add *
 ```
 
-
-
 ### 3. 提交
 
 ```powershell
 $ git commit -m '本次提交备注信息'
 ```
-
-
 
 ### 4. 分支
 
@@ -54,11 +46,9 @@ $ git checkout master
 $ git branch -d xxx
 ```
 
-
-
 ### 5. 把本地改动推送到远端仓库
 
-- 如果本地仓库已经和远端仓库进行了连接（使用过连接命令或者是Git clone过了）
+- 如果本地仓库已经和远端仓库进行了连接（使用过连接命令或者是 Git clone 过了）
 
 ```powershell
 $ git push origin master
@@ -67,10 +57,8 @@ $ git push origin master
 - 如果本地仓库还没有克隆远端仓库，但又想和远程服务器进行连接，那么可以使用如下命令：
 
 ```powershell
-$ git remote add origin <server>
+$ git remote add origin git@github.com:zllLeft/learngit.git
 ```
-
-
 
 ### 6. 更新与合并
 
@@ -80,13 +68,13 @@ $ git remote add origin <server>
 $ git pull
 ```
 
-- 把其他分支（假设是xxx）合并到当前分支（假设是master）
+- 把其他分支（假设是 xxx）合并到当前分支（假设是 master）
 
 ```powershell
 $ git merge xxx
 ```
 
-- 以上两种情况下，git都会尝试去自动合并改动，遗憾的是，这可能并非每次都成功，并可能出现*冲突（conflicts）*。 这时候就需要你修改这些文件来手动合并这些*冲突（conflicts）*。改完之后，你需要执行如下命令以将它们标记为合并成功：
+- 以上两种情况下，git 都会尝试去自动合并改动，遗憾的是，这可能并非每次都成功，并可能出现*冲突（conflicts）*。 这时候就需要你修改这些文件来手动合并这些*冲突（conflicts）*。改完之后，你需要执行如下命令以将它们标记为合并成功：
 
 ```powershell
 $ git add <filename>
@@ -98,27 +86,23 @@ $ git add <filename>
 $ git diff <source_branch> <target_branch>
 ```
 
-
-
 ### 7. 标签
 
-- 一般来说，软件发布的时候都会创建一个标签用来作为该次发布的标识，你可以执行如下命令创建一个叫做 *1.0.0* 的标签：
+- 一般来说，软件发布的时候都会创建一个标签用来作为该次发布的标识，你可以执行如下命令创建一个叫做 _1.0.0_ 的标签：
 
 ```powershell
 $ git tag 1.0.0 1b2e1d63ff
 ```
 
-- *1b2e1d63ff* 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：(当然，你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性。)
+- _1b2e1d63ff_ 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：(当然，你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性。)
 
 ```powershell
 $ git log
 ```
 
-
-
 ### 8. 仓库变更日志
 
-- 如果你想了解本地仓库的历史记录，最简单的命令就是使用: 
+- 如果你想了解本地仓库的历史记录，最简单的命令就是使用:
 
 ```powershell
 $ git log
@@ -136,7 +120,7 @@ $ git log --author=zllLeft
 $ git log --pretty=oneline
 ```
 
-- 或者你想通过 ASCII 艺术的树形结构来展示所有的分支, 每个分支都标示了他的名字和标签: 
+- 或者你想通过 ASCII 艺术的树形结构来展示所有的分支, 每个分支都标示了他的名字和标签:
 
 ```powershell
 $ git log --graph --oneline --decorate --all
@@ -154,8 +138,6 @@ $ git log --name-status
 $ git log --help
 ```
 
-
-
 ### 9. 替换本地改动：
 
 - 假如你操作失误，你可以使用如下命令替换掉本地改动：
@@ -171,8 +153,6 @@ $ git checkout -- <filename>
 $ git fetch origin
 $ git fetch origin
 ```
-
-
 
 ### 10. 实用小贴士：
 
@@ -200,52 +180,40 @@ $ git config format.pretty oneline
 $ git add -i
 ```
 
-
-
-### 11. Git客户端
+### 11. Git 客户端
 
 - GitHub desktop [https://desktop.github.com/]()
 
 - Source Tree https://www.sourcetreeapp.com/
 
-
-
-### 12. Git学习资源
+### 12. Git 学习资源
 
 - ##### learn by reading :
 
-  Git简明指南：  http://rogerdudler.github.io/git-guide/index.zh.html 
+  Git 简明指南： http://rogerdudler.github.io/git-guide/index.zh.html
 
-  图解Git：  http://marklodato.github.io/visual-git-guide/index-zh-cn.html 
+  图解 Git： http://marklodato.github.io/visual-git-guide/index-zh-cn.html
 
-  Pro git： https://git-scm.com/book/en/v2 
+  Pro git： https://git-scm.com/book/en/v2
 
-  Pro git 中文版： https://progit.bootcss.com/ 
+  Pro git 中文版： https://progit.bootcss.com/
 
-  Cheat Sheets:  https://services.github.com/on-demand/downloads/zh_CN/github-git-cheat-sheet/
+  Cheat Sheets: https://services.github.com/on-demand/downloads/zh_CN/github-git-cheat-sheet/
 
-  廖雪峰git教程： https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+  廖雪峰 git 教程： https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-  猴子都能懂得git入门： https://backlog.com/git-tutorial/cn/
+  猴子都能懂得 git 入门： https://backlog.com/git-tutorial/cn/
 
-  阮一峰git常用命令： http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
+  阮一峰 git 常用命令： http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 
+* ##### learn by doing:
 
+  学习 git 分支: https://progit.bootcss.com/
 
-- ##### learn by doing:
+  Visualizing Git: http://git-school.github.io/visualizing-git/
 
-  学习git分支:  https://progit.bootcss.com/ 
+  Git it: https://github.com/jlord/git-it-electron#what-to-install
 
-  Visualizing Git: http://git-school.github.io/visualizing-git/ 
-
-  Git it: https://github.com/jlord/git-it-electron#what-to-install 
-
-
-
-### 13. Google图片学git
+### 13. Google 图片学 git
 
 ![image-20181106174836885](/var/folders/t1/ggft1jj54b73305_j9rmbcq00000gn/T/abnerworks.Typora/image-20181106174836885.png)
-
-
-
-
