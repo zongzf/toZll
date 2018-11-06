@@ -228,6 +228,8 @@ $ git add -i
 
   猴子都能懂得git入门： https://backlog.com/git-tutorial/cn/
 
+  阮一峰git常用命令： http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
+
 
 
 - ##### learn by doing:
