@@ -212,20 +212,23 @@ $ git add -i
 
 ### 12. Git学习资源
 
-- learn by theory :
+- ##### learn by reading :
 
-	[Git简明指南]: http://rogerdudler.github.io/git-guide/index.zh.html
-	[图解Git]: http://marklodato.github.io/visual-git-guide/index-zh-cn.html
-	[Pro git]: https://git-scm.com/book/en/v2
-	[Pro git 中文版]: https://progit.bootcss.com/
+  Git简明指南：  http://rogerdudler.github.io/git-guide/index.zh.html 
+
+  图解Git：  http://marklodato.github.io/visual-git-guide/index-zh-cn.html 
+
+  Pro git： https://git-scm.com/book/en/v2 
+
+  Pro git 中文版： https://progit.bootcss.com/ 
 
 
 
-- learn by doing:
+- ##### learn by doing:
 
-  [学习git分支]: https://progit.bootcss.com/
-  [Visualizing Git]: http://git-school.github.io/visualizing-git/
-  [Git it]: https://github.com/jlord/git-it-electron#what-to-install
+  学习git分支:  https://progit.bootcss.com/ 
+  Visualizing Git: http://git-school.github.io/visualizing-git/ 
+  Git it: https://github.com/jlord/git-it-electron#what-to-install 
 
 
 
