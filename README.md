@@ -227,7 +227,9 @@ $ git add -i
 - ##### learn by doing:
 
   学习git分支:  https://progit.bootcss.com/ 
+
   Visualizing Git: http://git-school.github.io/visualizing-git/ 
+
   Git it: https://github.com/jlord/git-it-electron#what-to-install 
 
 
