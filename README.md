@@ -222,6 +222,12 @@ $ git add -i
 
   Pro git 中文版： https://progit.bootcss.com/ 
 
+  Cheat Sheets:  https://services.github.com/on-demand/downloads/zh_CN/github-git-cheat-sheet/
+
+  廖雪峰git教程： https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+  猴子都能懂得git入门： https://backlog.com/git-tutorial/cn/
+
 
 
 - ##### learn by doing:
@@ -233,6 +239,10 @@ $ git add -i
   Git it: https://github.com/jlord/git-it-electron#what-to-install 
 
 
+
+### 13. Google图片学git
+
+![image-20181106174836885](/var/folders/t1/ggft1jj54b73305_j9rmbcq00000gn/T/abnerworks.Typora/image-20181106174836885.png)
 
 
 
