@@ -1,5 +1,5 @@
 # toZll
-整理一下我们的谈话内容
+整理一下
 
 ---
 
@@ -16,19 +16,19 @@ $ git init
 #### a). 添加单个文件
 
 ```shell
-git add <filename>
+$ git add <filename>
 ```
 
 #### b). 添加全部文件
 
 ```shell
-git add *
+$ git add *
 ```
 
 ### 3. 提交
 
 ```shell
-git commit -m '本次提交备注信息'
+$ git commit -m '本次提交备注信息'
 ```
 
 ### 4. 分支
@@ -36,5 +36,5 @@ git commit -m '本次提交备注信息'
 
 
 ```shell
-git checkout -b xxx
+$ git checkout -b xxx
 ```
