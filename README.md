@@ -213,7 +213,3 @@ $ git add -i
   Visualizing Git: http://git-school.github.io/visualizing-git/
 
   Git it: https://github.com/jlord/git-it-electron#what-to-install
-
-### 13. Google 图片学 git
-
-![image-20181106174836885](/var/folders/t1/ggft1jj54b73305_j9rmbcq00000gn/T/abnerworks.Typora/image-20181106174836885.png)
